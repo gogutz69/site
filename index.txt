@@ -1,30 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="ro">
 <head>
-    <title>School Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prezentare Școală</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to Our School</h1>
+        <h1>Bine ați venit la Școala Noastră!</h1>
+    </header>
+    <main>
+        <section id="presentation">
+            <h2>Prezentarea Școlii</h2>
+            <p>Bine ați venit la școala noastră, un loc al învățării și al dezvoltării personale!</p>
+        </section>
+        <section id="gallery">
+            <h2>Galerie</h2>
+            <img src="https://assets.onecompiler.app/43eh5vktc/43eh5s95d/WIN_20250322_23_05_53_Pro.jpg" alt="Imagine 1">
+            <img src="images/school2.jpg" alt="Imagine 2">
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Adresa: Strada Principală, Nr. 123, Oraș</p>
+            <p>Telefon: +40 123 456 789</p>
+            <p>Email: contact@scoala.ro</p>
+        </section>
         <nav>
+            <h2>Pagini</h2>
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#news">News</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="announcements.html">Anunțuri</a></li>
+                <li><a href="program.html">Program</a></li>
+                <li><a href="history.html">Istorie</a></li>
+                <li><a href="professors.html">Profesori</a></li>
             </ul>
         </nav>
-    </header>
-    <section id="about">
-        <h2>About Our School</h2>
-        <p>Our school is dedicated to excellence...</p>
-    </section>
-    <section id="news">
-        <h2>News & Events</h2>
-        <p>Stay updated with the latest news...</p>
-    </section>
+    </main>
     <footer>
-        <p>&copy; 2025 School Name. All rights reserved.</p>
+        <p>&copy; 2025 Școala Noastră</p>
     </footer>
 </body>
 </html>
