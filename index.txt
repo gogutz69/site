@@ -17,7 +17,6 @@
         </section>
         <section id="gallery">
             <h2>Galerie</h2>
-            <img src="" alt="Imagine 1">
             <img src="images/school2.jpg" alt="Imagine 2">
         </section>
         <section id="contact">
