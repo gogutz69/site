@@ -17,7 +17,7 @@
         </section>
         <section id="gallery">
             <h2>Galerie</h2>
-            <img src="https://assets.onecompiler.app/43eh5vktc/43eh5s95d/WIN_20250322_23_05_53_Pro.jpg" alt="Imagine 1">
+            <img src="" alt="Imagine 1">
             <img src="images/school2.jpg" alt="Imagine 2">
         </section>
         <section id="contact">
