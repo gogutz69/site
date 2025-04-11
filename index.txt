@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>School Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our School</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>About Our School</h2>
+        <p>Our school is dedicated to excellence...</p>
+    </section>
+    <section id="news">
+        <h2>News & Events</h2>
+        <p>Stay updated with the latest news...</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 School Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
