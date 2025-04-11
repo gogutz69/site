@@ -1,20 +1,23 @@
-/* General styles */
 body {
     font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
 }
 
 header {
-    background: #007BFF;
+    background: #4CAF50;
     color: white;
     padding: 1rem 0;
     text-align: center;
 }
 
-header h1 {
-    margin: 0;
+main {
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
 }
 
 nav ul {
@@ -23,33 +26,18 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 10px;
+    margin: 0.5rem 0;
 }
 
 nav ul li a {
-    color: white;
     text-decoration: none;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-section {
-    padding: 20px;
-    margin: 20px;
-    background: #f4f4f4;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    color: #4CAF50;
 }
 
 footer {
-    text-align: center;
     background: #333;
     color: white;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
 }
